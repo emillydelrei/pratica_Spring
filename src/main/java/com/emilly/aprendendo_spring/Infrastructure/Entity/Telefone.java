@@ -13,10 +13,16 @@ import lombok.Setter;
 @Entity
 @Table(name = "Telefone")
 
-public class telefone {
+public class Telefone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "DDD")
+    private long DDD;
+    @Column(name = "numero")
+    private long numero;
+
+
 
 }

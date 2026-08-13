@@ -1,6 +1,7 @@
 package com.emilly.aprendendo_spring;
 
 import com.emilly.aprendendo_spring.Infrastructure.Entity.Endereco;
+import com.emilly.aprendendo_spring.Infrastructure.Entity.Telefone;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.AnyDiscriminatorImplicitValues;
@@ -36,6 +37,6 @@ public class Usuario {
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "usuario_id",referencedColumnName = "id")
 
-    private List<telefone> telefones;
+    private List<Telefone> telefones;
 
 }
