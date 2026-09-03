@@ -20,7 +20,7 @@ public class Telefone {
     private Long id;
     @Column(name = "DDD")
     private long DDD;
-    @Column(name = "numero")
+    @Column(name = "numero",length = 10)
     private long numero;
 
 

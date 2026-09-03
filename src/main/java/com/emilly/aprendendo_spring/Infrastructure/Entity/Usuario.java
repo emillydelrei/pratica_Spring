@@ -1,10 +1,7 @@
-package com.emilly.aprendendo_spring;
+package com.emilly.aprendendo_spring.Infrastructure.Entity;
 
-import com.emilly.aprendendo_spring.Infrastructure.Entity.Endereco;
-import com.emilly.aprendendo_spring.Infrastructure.Entity.Telefone;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.AnyDiscriminatorImplicitValues;
 
 import java.util.List;
 
